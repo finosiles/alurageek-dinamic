@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@300;400;700&display=swap');
+/* Colores del poryecto */
+
+/* fondo login #E5E5E5; */
+/* color fuente #464646; */
+/* color botones #2A7AE4; */
+
+:root{
+
+    --color-primario:(#2A7AE4);
+    --color-fondo:(#E5E5E5);
+    --color-fuentes:( #464646);
+
+}
+body{
+    color: #464646;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    background: #E5E5E5;
+    margin: 0px;
+    padding: 0px;
+   
+}
+a:link, a:visited, a:active {
+    color:#2A7EA4 ;
+    text-decoration:none;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+
+}
+
+/*Estilos del navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffff;
+    padding: 0 2.5rem 0 2rem;
+    
+}
+
+span {
+    
+    color: #2A7AE4;
+  
+  
+}
+
+.nav__search{
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    
+    
+}
+.nav__search_input{
+    display: none;
+    
+   
+}
+
+/* Inicio de estilo de la seccion de registro*/
+
+
+.form__registro{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 2rem 4.75rem 2.5rem;
+}
+
+.form__registro_input{
+    height: 2.5rem;
+    width: 17rem;
+    margin: 0 0 1rem 0;
+    border:0;
+    border-bottom: 1px solid rgba(0,0,0, 0.4); 
+    
+}
+.form__registro_enviar{
+    width: 7rem;;
+}
+
+
+/* Fin de estilo de la seccion de registro*/
+/* Incio de estilo de la seccion de footer*/
+.footer{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EAF2FD;
+    
+}
+.footer__links{
+    flex-direction: column;
+    
+}
+.form__contacts{
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+    width: 20rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+
+}
+
+
+.form_contactos_boton{
+    width: 9rem;
+}
+.name__contacts{
+   
+    height: 2.5rem;
+    border:0;
+    margin: 0 0 1rem 0;
+    outline: none;
+    border-bottom: 1px solid rgba(80, 77, 77, 0.4);
+}
+#mensaje__contacts{
+    border:0;
+    margin: 0 0 1rem 0;
+    outline: none;
+    border-bottom: 1px solid rgba(80, 75, 75, 0.4);
+}
+.botones{
+    cursor: pointer;
+    color: #ffff;
+    background:#2A7AE4 ;
+    border-style: none;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    margin: 1px;
+
+}
+.footer__izquierdo{
+    flex-direction: column;
+}
+.logo a{
+    width: 3.12rem;
+    height:3.12rem;
+}
+.footer__text_dev{
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+    height: 7.5rem;
+    background:  #ffff;
+}
+/* Fin de estilo de la seccion de footer */
+@media (min-width: 768px) {
+    .navbar{
+	justify-content: flex-start;
+	
+	
+    }
+    .nav__search_input{
+	height: 1.5rem;
+	display: flex;
+	margin-left: 1.5rem;
+	margin-right: 1rem;
+	background: #E5E5E5;
+	border-radius: 3rem;
+	border-style: none;
+	outline: none;
+    }
+    .name__contacts{
+	width:15rem ;
+	height: 2.5rem;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+    #mensaje__contacts{
+	width:15rem ;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+
+    
+    .footer{
+	margin: 0 2.5rem 0 2rem 0;
+	flex-direction:row;
+	justify-content: space-around;
+	padding-bottom: 2rem;
+    }
+    .footer div{
+	margin-left: 2.5rem;
+    }
+     .footer__izquierdo{
+	 flex-direction: column;
+    }
+    .logo a{
+	width: 3.12rem;
+	height:3.12rem;
+    }
+    .footer__text_dev{
+	margin: 0;
+	max-width: 100%;
+    }
+    
+}
+
+
+@media (min-width: 1240px) {
+    .navbar{
+	justify-content: flex-start;
+	
+	
+    }
+    .nav__search_input{
+	height: 1.5rem;
+	display: flex;
+	margin-left: 1.5rem;
+	margin-right: 1rem;
+	background: #E5E5E5;
+	border-radius: 3rem;
+	border-style: none;
+	outline: none;
+    }
+    .name__contacts{
+	width:350px ;
+	height: 2.5rem;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+    #mensaje__contacts{
+	width:350px ;
+	border:0;
+	margin: 0 0 1rem 0;
+	border-bottom: 2px solid rgba(0,0,0, 0.4);
+    }
+
+    
+    .footer{
+	margin: 0 2.5rem 0 2rem 0;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-bottom: 2rem;
+    }
+    .footer__izquierdo{
+	flex-direction: row;
+    }
+    .logo a{
+	width: 3.12rem;
+	height:3.12rem;
+    }
+    .footer div{
+	margin-right: 6rem;
+    }
+    
+    .footer__text_dev{
+	margin: 0;
+	max-width: 100%;
+    }
+    
+}

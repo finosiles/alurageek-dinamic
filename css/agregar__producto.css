@@ -1,0 +1,19 @@
+section.agregar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.agregar__producto__boton{
+    color:#2E7AE7;
+    border: 1px solid #2E7AE7;
+    background: #FFFFFF;
+    width: 90%;
+}
+
+.entrada{
+    
+    padding: 10px;
+    margin: .5rem 0;
+}

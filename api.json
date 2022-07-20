@@ -1,0 +1,136 @@
+
+[
+    {
+      "url": "./assets/starwars/img_sw01_1.png",
+      "categoria": "star wars",
+      "nombre": "taza trooper",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/starwars/img_sw02.png",
+      "categoria": "star wars",
+      "nombre": "vader",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/starwars/img_sw03.png",
+      "categoria": "star wars",
+      "nombre": "yoda",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/starwars/img_sw04.png",
+      "categoria": "star wars",
+      "nombre": "trooper",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/starwars/img_sw05.png",
+      "categoria": "star wars",
+      "nombre": "trooper",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/starwars/img_sw06.png",
+      "categoria": "star wars",
+      "nombre": "trooper",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/consolas/img_con01.png",
+      "categoria": "consolas",
+      "nombre": "xbox",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/consolas/img_con02.png",
+      "categoria": "consolas",
+      "nombre": "play 5",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/consolas/img_con03.png",
+      "categoria": "consolas",
+      "nombre": "NES",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/consolas/img_con04.png",
+      "categoria": "consolas",
+      "nombre": "switch",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/consolas/img_con05.png",
+      "categoria": "consolas",
+      "nombre": "pc gamer",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+    {
+      "url": "./assets/consolas/img_con06.png",
+      "categoria": "consolas",
+      "nombre": "game boy",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion"
+    },
+  {
+    "url": "./assets/diversos/img_div01.png",
+    "categoria": "diversos",
+    "nombre": "atari",
+    "precio": "$60",
+    "descripcion": "Pequeña descripcion"
+  },
+
+  {
+    "url": "./assets/diversos/img_div02.png",
+    "categoria": "diversos",
+    "nombre": "playing",
+    "precio": "$60",
+    "descripcion": "Pequeña descripcion"
+  },
+
+  {
+    "url": "./assets/diversos/img_div03.png",
+    "categoria": "diversos",
+    "nombre": "sonic",
+    "precio": "$60",
+    "descripcion": "Pequeña descripcion"
+  },
+
+  {
+    "url": "./assets/diversos/img_div04.png",
+    "categoria": "diversos",
+    "nombre": "tuner",
+    "precio": "$60",
+    "descripcion": "Pequeña descripcion"
+  },
+
+  {
+    "url": "./assets/diversos/img_div05.png",
+    "categoria": "diversos",
+    "nombre": "reality virtual",
+    "precio": "$60",
+    "descripcion": "Pequeña descripcion"
+  },
+  {
+    "url": "./assets/diversos/img_div06.png",
+    "categoria": "diversos",
+    "nombre": "pikachu",
+    "precio": "$60",
+    "descripcion": "Pequeña descripcion"
+  }
+
+  
+]
+

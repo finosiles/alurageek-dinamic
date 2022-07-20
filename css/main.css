@@ -1,0 +1,209 @@
+
+/* Inicio de la seccion HEADER   */
+.header__login{
+    
+    color: #2E7AE4;
+    cursor: pointer;
+    background: #ffff;
+    border:1px solid #2E7AE4;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin: 1px;
+    
+}
+.nav__search{
+    color:#464646;
+    display: none;
+    width: 20rem;
+    outline: none;
+    border-radius: 1rem;
+    border-style: hidden;
+    background-color:#E5E5E5;
+    padding: .5rem;
+}
+
+/*Fin de HEADER*/
+
+/* Inicio de la seccion HERO*/
+.hero{
+    height: 20rem;
+    background-image: url(../assets/Hero_tablet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color:#ffff;
+    flex-direction: column;
+    
+}
+.hero__promociones{
+    margin: 10rem 0 0 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+}
+.hero__title, .hero__subtitle{
+    margin: 0;
+   
+}
+.hero__title{
+    font-size: 2em;
+}
+.hero__subtitle{
+    font-size: 1.2em;
+}
+.hero button{
+    width: 120px;
+}
+
+/*Fin de HERO*/
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+    margin-left: 2rem;
+    
+}
+.products__titles{
+    justify-content: space-between;
+    align-items: center;
+
+}
+.view__all{
+    justify-content: center;
+    align-items: center;
+}
+
+.star__wars__products, .consolas__products, .diversos__products {
+    margin: 0 1rem 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0.8rem;
+    
+}
+.star__product, .consolas__product, .diversos__product{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+
+
+}
+.star__wars__products img{
+   max-width:10rem;
+
+}
+a:link {
+     color:  margin:#2A7AE4 !important;
+}
+
+
+.consolas__products img{
+    max-width: 10rem;
+   
+
+}
+.diversos__product img{
+    max-width: 10rem;
+}
+section.diversos{
+    padding-bottom: 6rem;
+}
+section.footer {
+    padding-top: 6rem;
+}
+{}
+/*fin de estilos en mobile */
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+
+    .hero{
+   
+    background-image: url(../assets/Hero_tablet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover; 
+    color:#ffff;
+   
+    
+}
+.star__wars__products, .consolas__products, .diversos__products{
+    margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0.5rem;
+  
+}
+
+
+
+}
+
+/*PC*/
+@media (min-width: 1000px) {
+    .navbar{
+            justify-content: space-between;
+        }   
+        .nav__login{
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                    margin: 1rem;
+                    width: 75%; 
+                
+                }
+                .input__wrapper{
+                    position: relative;
+
+                }
+                .input__icon {
+                    color: #191919;
+                    position: absolute;
+                    width: 1rem;
+                    height: 1rem;
+                    left: 18rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                .search__icon{
+                    display: none;
+                }
+
+            .nav__search{
+
+                display: block;
+
+        }
+.hero{
+    
+    background-image: url(../assets/Hero_pc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    color:#ffff;
+    flex-direction: column;
+    
+}
+.star__wars__products, .consolas__products, .diversos__products{
+    margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 0.5rem;
+    grid
+}
+
+
+.consolas__products{
+     margin: 0 2rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 2rem;
+}
+
+}
