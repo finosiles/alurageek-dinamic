@@ -1,5 +1,5 @@
-
-[
+{
+  "productos": [
     {
       "url": "./assets/starwars/img_sw01_1.png",
       "categoria": "star wars",
@@ -129,8 +129,21 @@
     "nombre": "pikachu",
     "precio": "$60",
     "descripcion": "Pequeña descripcion"
+  }    
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-
+}
+[
+    
   
 ]
 

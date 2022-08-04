@@ -1,9 +1,20 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "url": "./assets/starwars/img_sw02.png",
+      "categoria": "star wars",
+      "nombre": "ader",
+      "precio": "345",
+      "descripcion": "casasa",
+      "id": 1
+    },
+    {
+      "url": "./assets/starwars/img_sw03.png",
+      "categoria": "star wars",
+      "nombre": "Otras",
+      "precio": "123",
+      "descripcion": "asdasdasdasdasdasd",
+      "id": 2
     }
   ],
   "comments": [

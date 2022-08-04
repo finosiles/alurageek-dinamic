@@ -4,6 +4,8 @@
     <meta charset="UTF-8"/>
     <title>AluraGeek</title>
     <link href="./css/styles__login.css" rel="stylesheet"/>
+    <link href="./css/agregar__producto.css" rel="stylesheet"/>
+    <link href="./assets/favicon.ico" rel="icon"/>
   </head>
   <body>
 	<section class="header">
@@ -48,14 +50,28 @@
   
 	  </section>
     
-    <section class="form__registro flex">
-      <h1 class="form__registro_title">Agregar producto</h1>
-      <input class="form__registro_input " name="" type="text" data-url value="Url de la imágen"/>
-      <input class="form__registro_input " name="" type="text" data-categoria value="Categoria"/>
-	  <input class="form__registro_input " name="" type="text" data-name value="Nombre"/>
-	  <input class="form__registro_input " name="" type="text" data-price value="Precio"/>
-	  <input class="form__registro_input " name="" type="text" data-desc value="Descripcion"/>
-	  <button class="form__registro_enviar botones">Agregar producto</button>
+	<section>
+	  <h1 class="form__registro_title">Agregar producto</h1>
+	  <form class="form__registro flex " data-form>
+            <div class="input-container">
+	      <input class="entrada" name="url" id="url" class="input" type="text"  placeholder="url" required data-url />
+	    </div>
+            <div class="input-container">
+              <input class="entrada"  name="categoria" id="categoria" class="input" type="text" placeholder="categoria" data-categoria />
+            </div>
+	    <div class="input-container">
+	      <input class="entrada" name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" required data-name />
+            </div>
+	    <div class="input-container">
+	      <input class="entrada" name="precio"  id="precio" class="input" type="text" placeholder="Precio" required data-price />
+            </div>
+	    <div class="input-container">
+	      <input class="entrada" name="describe" id="describe" class="input" type="text"  placeholder="Descripcion" required data-desc />
+            </div>
+            <button class="botones agregar__producto__boton" type="submit" class="button">Registrar</button>
+          </form>
+
+
     </section>
 
     <section class="footer flex">
@@ -106,6 +122,6 @@
       </div>
 
 
-	  <script src="js/add_product.js"></script>
+	  <script type="module"  src="/js/add_product.js"></script>
  </body>
 </html>

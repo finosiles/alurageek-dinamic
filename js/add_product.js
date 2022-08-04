@@ -1,72 +1,30 @@
-//backticks
-const crearNuevoProducto = (url,categoria,nombre,precio, descripcion) => {
-  const linea = document.createElement("tr");
-  const contenido = `
+const formulario = document.querySelector("[data-form]");
+
+formulario.addEventListener("submit", (evento) => {
+  evento.preventDefault();
+  const url = document.querySelector("[data-url]").value;
+  const categoria = document.querySelector("[data-categoria]").value;
+  const nombre = document.querySelector("[data-name]").value;
+  const precio = document.querySelector("[data-price]").value;
+  const descripcion = document.querySelector("[data-desc]").value;
+ 
+  
+  crearCliente(url, categoria,nombre, precio, descripcion)
+    .then(() => {
+      console.log("Enviado");
+    })
+    .catch((err) => console.log(err));
+});
 
 
-    <td class="td" data-td>
-      ${nombre}
-    </td>
-    <td>${categoria}</td>
-    <td>
-      <ul class="table__button-control">
-        <li>
-          <a
-            href="../screens/editar_cliente.html"
-            class="simple-button simple-button--edit"
-          >
-            Editar
-          </a>
-        </li>
-        <li>
-          <button class="simple-button simple-button--delete" type="button">
-            Eliminar
-          </button>
-        </li>
-      </ul>
-    </td>
-  `;
-  linea.innerHTML = contenido;
-  return linea;
-};
-
-const table = document.querySelector("[data-table]");
-
-//Abrir http (método,url)
-
-// CRUD   - Métodos HTTP
-// Create - POST
-// Read   - GET
-// Update - PUT/PATCH
-// Delete - DELETE
-
-const listaClientes = () => {
-  const promise = new Promise((resolve, reject) => {
-    const http = new XMLHttpRequest();
-    http.open("GET", "http://localhost:3000/perfil");
-
-    http.send();
-
-    http.onload = () => {
-      const response = JSON.parse(http.response);
-      if (http.status >= 400) {
-        reject(response);
-      } else {
-        resolve(response);
-      }
-    };
+const crearCliente = (url, categoria, nombre, precio, descripcion) => {
+  return fetch('http://localhost:3000/posts', {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ url, categoria,nombre, precio, descripcion }),
   });
-  return promise;
 };
 
-listaClientes()
-  .then((data) => {
-    data.forEach((perfil) => {
-      const nuevoProducto = crearNuevoProducto(perfil.url,perfil.categoria,perfil.nombre,perfil.precio, perfil.descripcion);
-      table.appendChild(nuevaLinea);
-    });
-  })
-  .catch((error) => alert("Ocurrió un error"));
 
-// console.log(data);
-//
