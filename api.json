@@ -1,135 +1,157 @@
 {
-  "productos": [
+  "posts": [
     {
       "url": "./assets/starwars/img_sw01_1.png",
       "categoria": "star wars",
       "nombre": "taza trooper",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 1
     },
     {
       "url": "./assets/starwars/img_sw02.png",
       "categoria": "star wars",
       "nombre": "vader",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 2
     },
     {
       "url": "./assets/starwars/img_sw03.png",
       "categoria": "star wars",
       "nombre": "yoda",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 3
     },
     {
       "url": "./assets/starwars/img_sw04.png",
       "categoria": "star wars",
       "nombre": "trooper",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 4
     },
     {
       "url": "./assets/starwars/img_sw05.png",
       "categoria": "star wars",
       "nombre": "trooper",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 5
     },
     {
       "url": "./assets/starwars/img_sw06.png",
       "categoria": "star wars",
       "nombre": "trooper",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 6
     },
     {
       "url": "./assets/consolas/img_con01.png",
       "categoria": "consolas",
       "nombre": "xbox",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 7
     },
     {
       "url": "./assets/consolas/img_con02.png",
       "categoria": "consolas",
       "nombre": "play 5",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 8
     },
     {
       "url": "./assets/consolas/img_con03.png",
       "categoria": "consolas",
       "nombre": "NES",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 9
     },
     {
       "url": "./assets/consolas/img_con04.png",
       "categoria": "consolas",
       "nombre": "switch",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 10
     },
     {
       "url": "./assets/consolas/img_con05.png",
       "categoria": "consolas",
       "nombre": "pc gamer",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 11
     },
     {
       "url": "./assets/consolas/img_con06.png",
       "categoria": "consolas",
       "nombre": "game boy",
       "precio": "$60",
-      "descripcion": "Pequeña descripcion"
+      "descripcion": "Pequeña descripcion",
+      "id": 12
     },
-  {
-    "url": "./assets/diversos/img_div01.png",
-    "categoria": "diversos",
-    "nombre": "atari",
-    "precio": "$60",
-    "descripcion": "Pequeña descripcion"
-  },
-
-  {
-    "url": "./assets/diversos/img_div02.png",
-    "categoria": "diversos",
-    "nombre": "playing",
-    "precio": "$60",
-    "descripcion": "Pequeña descripcion"
-  },
-
-  {
-    "url": "./assets/diversos/img_div03.png",
-    "categoria": "diversos",
-    "nombre": "sonic",
-    "precio": "$60",
-    "descripcion": "Pequeña descripcion"
-  },
-
-  {
-    "url": "./assets/diversos/img_div04.png",
-    "categoria": "diversos",
-    "nombre": "tuner",
-    "precio": "$60",
-    "descripcion": "Pequeña descripcion"
-  },
-
-  {
-    "url": "./assets/diversos/img_div05.png",
-    "categoria": "diversos",
-    "nombre": "reality virtual",
-    "precio": "$60",
-    "descripcion": "Pequeña descripcion"
-  },
-  {
-    "url": "./assets/diversos/img_div06.png",
-    "categoria": "diversos",
-    "nombre": "pikachu",
-    "precio": "$60",
-    "descripcion": "Pequeña descripcion"
-  }    
+    {
+      "url": "./assets/diversos/img_div01.png",
+      "categoria": "diversos",
+      "nombre": "atari",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion",
+      "id": 13
+    },
+    {
+      "url": "./assets/diversos/img_div02.png",
+      "categoria": "diversos",
+      "nombre": "playing",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion",
+      "id": 14
+    },
+    {
+      "url": "./assets/diversos/img_div03.png",
+      "categoria": "diversos",
+      "nombre": "sonic",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion",
+      "id": 15
+    },
+    {
+      "url": "./assets/diversos/img_div04.png",
+      "categoria": "diversos",
+      "nombre": "tuner",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion",
+      "id": 16
+    },
+    {
+      "url": "./assets/diversos/img_div05.png",
+      "categoria": "diversos",
+      "nombre": "reality virtual",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion",
+      "id": 17
+    },
+    {
+      "url": "./assets/diversos/img_div06.png",
+      "categoria": "diversos",
+      "nombre": "pikachu",
+      "precio": "$60",
+      "descripcion": "Pequeña descripcion",
+      "id": 18
+    },
+    {
+      "url": "https://media.istockphoto.com/id/506917672/es/foto/tropas-de-choque-figura-tocando-el-gameboy.webp?s=612x612&w=is&k=20&c=InVqCLeQ0DJ4FW-gsvLn7W3ReSBR3ocOCDbpxoCo58Y=",
+      "categoria": "star wars",
+      "nombre": "Panchocacac",
+      "precio": "654",
+      "descripcion": "asdas",
+      "id": 19
+    }
   ],
   "comments": [
     {
@@ -142,8 +164,3 @@
     "name": "typicode"
   }
 }
-[
-    
-  
-]
-
